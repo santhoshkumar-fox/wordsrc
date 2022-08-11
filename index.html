@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wordDef</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="card">
+        <p id="titleP">Dictionary</p>
+        <div class="inputcon"><input id="wordinput" placeholder="Type the Word" type="text"></div>
+        
+        
+
+        <div class="content">
+
+            <div class="defanitioncon">
+                <p>Defanition</p>
+                <p id="defanition">onnu eilla keela pootru</p>
+            </div>
+    
+            <audio id="audiosrc" controls muted>
+                <source  src="https://api.dictionaryapi.dev/media/pronunciations/en/walk-us.mp3" type="audio/mp3">
+            </audio>
+            
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
